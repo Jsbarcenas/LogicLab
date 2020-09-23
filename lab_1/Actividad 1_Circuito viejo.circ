@@ -81,15 +81,15 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(160,270)" to="(160,380)"/>
     <wire from="(100,210)" to="(100,320)"/>
     <wire from="(160,220)" to="(160,270)"/>
-    <wire from="(40,80)" to="(40,130)"/>
     <wire from="(40,200)" to="(40,250)"/>
+    <wire from="(40,80)" to="(40,130)"/>
     <wire from="(210,460)" to="(540,460)"/>
     <wire from="(100,320)" to="(100,500)"/>
     <wire from="(690,310)" to="(770,310)"/>
     <wire from="(690,330)" to="(770,330)"/>
     <wire from="(40,360)" to="(40,420)"/>
-    <wire from="(100,80)" to="(100,140)"/>
     <wire from="(340,330)" to="(340,450)"/>
+    <wire from="(100,80)" to="(100,140)"/>
     <wire from="(160,160)" to="(160,220)"/>
     <wire from="(570,260)" to="(690,260)"/>
     <wire from="(290,170)" to="(540,170)"/>
@@ -125,60 +125,60 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(340,330)" to="(540,330)"/>
     <wire from="(340,270)" to="(540,270)"/>
     <wire from="(340,450)" to="(540,450)"/>
-    <comp lib="1" loc="(570,260)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(570,500)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
     <comp lib="0" loc="(40,80)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="label" val="A"/>
     </comp>
-    <comp lib="1" loc="(290,270)" name="NOT Gate"/>
-    <comp lib="1" loc="(570,210)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="5" loc="(950,320)" name="LED"/>
-    <comp lib="1" loc="(290,200)" name="NOT Gate"/>
     <comp lib="1" loc="(590,440)" name="AND Gate">
       <a name="inputs" val="4"/>
     </comp>
-    <comp lib="1" loc="(590,150)" name="AND Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(570,370)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(100,80)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="B"/>
-    </comp>
-    <comp lib="1" loc="(290,170)" name="NOT Gate"/>
     <comp lib="0" loc="(160,80)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="label" val="C"/>
     </comp>
+    <comp lib="1" loc="(570,210)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
     <comp lib="1" loc="(570,320)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
+    <comp lib="1" loc="(840,320)" name="OR Gate">
+      <a name="size" val="70"/>
+      <a name="inputs" val="7"/>
+    </comp>
+    <comp lib="1" loc="(570,500)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(590,150)" name="AND Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="5" loc="(950,320)" name="LED"/>
+    <comp lib="1" loc="(290,200)" name="NOT Gate"/>
+    <comp lib="1" loc="(570,370)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(290,170)" name="NOT Gate"/>
+    <comp lib="0" loc="(100,80)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="1" loc="(570,260)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(290,140)" name="NOT Gate"/>
     <comp lib="0" loc="(210,80)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
       <a name="label" val="D"/>
     </comp>
-    <comp lib="1" loc="(290,140)" name="NOT Gate"/>
-    <comp lib="1" loc="(840,320)" name="OR Gate">
-      <a name="size" val="70"/>
-      <a name="inputs" val="7"/>
-    </comp>
+    <comp lib="1" loc="(290,270)" name="NOT Gate"/>
   </circuit>
 </project>

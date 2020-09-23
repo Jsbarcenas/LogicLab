@@ -1,0 +1,15 @@
+|lab1
+A => X.IN1
+A => Y.IN1
+B => X.IN0
+B => X.IN0
+C => X.IN1
+C => Z.IN0
+D => X.IN1
+D => Y.IN1
+D => Z.IN1
+X <= X.DB_MAX_OUTPUT_PORT_TYPE
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Z <= Z.DB_MAX_OUTPUT_PORT_TYPE
+
+
