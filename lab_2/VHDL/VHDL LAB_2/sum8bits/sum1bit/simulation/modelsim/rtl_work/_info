@@ -1,0 +1,49 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/My Drive/Academia/Cursos Dictados/Logica Digital/Material_VHDL_Clases/sum1bit/simulation/modelsim
+Esum1bit
+Z1 w1586808300
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8G:/My Drive/Academia/Cursos Dictados/Logica Digital/Material_VHDL_Clases/sum1bit/sum1bit.vhd
+Z5 FG:/My Drive/Academia/Cursos Dictados/Logica Digital/Material_VHDL_Clases/sum1bit/sum1bit.vhd
+l0
+L4
+VT]>0NaI5ER=TH<ARkk`I01
+!s100 z9e^e9VfRa>W?I:^>]aV12
+Z6 OV;C;10.3c;59
+31
+Z7 !s110 1586808472
+!i10b 1
+Z8 !s108 1586808471.310000
+Z9 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Academia/Cursos Dictados/Logica Digital/Material_VHDL_Clases/sum1bit/sum1bit.vhd|
+Z10 !s107 G:/My Drive/Academia/Cursos Dictados/Logica Digital/Material_VHDL_Clases/sum1bit/sum1bit.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1
+Artl
+R2
+R3
+DEx4 work 7 sum1bit 0 22 T]>0NaI5ER=TH<ARkk`I01
+l15
+L12
+V@3`1I1Djj3[aWAMKQ6fl^1
+!s100 k2F5h2JARCA_k7_YUJI_L2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

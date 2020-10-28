@@ -1,0 +1,11 @@
+|sum1bit
+A => AxB.IN0
+A => Cout.IN0
+B => AxB.IN1
+B => Cout.IN1
+Cin => sum.IN1
+Cin => Cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,42 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do sum1bit_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {G:/My Drive/Academia/Cursos Dictados/Logica Digital/Material_VHDL_Clases/sum1bit/sum1bit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:07:51 on Apr 13,2020
+# vcom -reportprogress 300 -93 -work work G:/My Drive/Academia/Cursos Dictados/Logica Digital/Material_VHDL_Clases/sum1bit/sum1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sum1bit
+# -- Compiling architecture rtl of sum1bit
+# End time: 15:07:53 on Apr 13,2020, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# 
+vsim rtl_work.sum1bit
+# vsim -gui "+altera" -l msim_transcript -do "sum1bit_run_msim_rtl_vhdl.do" 
+# Start time: 15:08:05 on Apr 13,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading rtl_work.sum1bit(rtl)
+wave create -driver freeze -pattern clock -initialvalue U -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/sum1bit/A
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern clock -initialvalue U -period 200ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/sum1bit/B
+wave create -driver freeze -pattern clock -initialvalue U -period 400ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/sum1bit/Cin
+add wave -position end  sim:/sum1bit/sum
+add wave -position end  sim:/sum1bit/Cout
+run -all
+# End time: 15:13:19 on Apr 13,2020, Elapsed time: 0:05:14
+# Errors: 0, Warnings: 0
