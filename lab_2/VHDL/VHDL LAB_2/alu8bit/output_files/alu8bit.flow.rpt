@@ -1,5 +1,5 @@
 Flow report for alu8bit
-Wed Oct 28 02:16:13 2020
+Wed Oct 28 13:13:18 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Flow Failed - Wed Oct 28 02:16:13 2020      ;
+; Flow Status                        ; Flow Failed - Wed Oct 28 13:13:18 2020      ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; alu8bit                                     ;
 ; Top-level Entity Name              ; alu8bit                                     ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/28/2020 02:16:00 ;
+; Start date & time ; 10/28/2020 13:12:58 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; alu8bit             ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 47016431764367.160386935902400         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 47016431764367.160390877802196         ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                   ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                 ; <None>        ; --          ; --             ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top            ;
@@ -89,8 +89,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 4782 MB             ; 00:00:29                           ;
-; Total                ; 00:00:14     ; --                      ; --                  ; 00:00:29                           ;
+; Analysis & Synthesis ; 00:00:21     ; 1.0                     ; 4782 MB             ; 00:00:31                           ;
+; Total                ; 00:00:21     ; --                      ; --                  ; 00:00:31                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

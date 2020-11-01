@@ -1,5 +1,5 @@
 Analysis & Synthesis report for alu8bit
-Wed Oct 28 02:16:13 2020
+Wed Oct 28 13:13:18 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Wed Oct 28 02:16:13 2020           ;
+; Analysis & Synthesis Status        ; Failed - Wed Oct 28 13:13:18 2020           ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; alu8bit                                     ;
 ; Top-level Entity Name              ; alu8bit                                     ;
@@ -161,29 +161,29 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Wed Oct 28 02:15:59 2020
+    Info: Processing started: Wed Oct 28 13:12:57 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off alu8bit -c alu8bit
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Info (12021): Found 2 design units, including 1 entities, in source file /users/sjbarcx/desktop/vhdl/lab 2/sum8bits/sum1bit/sum1bit.vhd
-    Info (12022): Found design unit 1: sum1bit-rtl File: C:/Users/Sjbarcx/Desktop/vhdl/LAB 2/sum8bits/sum1bit/sum1bit.vhd Line: 12
-    Info (12023): Found entity 1: sum1bit File: C:/Users/Sjbarcx/Desktop/vhdl/LAB 2/sum8bits/sum1bit/sum1bit.vhd Line: 4
-Error (10500): VHDL syntax error at or.vhd(8) near text ")";  expecting an identifier, or "constant", or "file", or "signal", or "variable" File: C:/Users/Sjbarcx/Desktop/vhdl/LAB 2/or.vhd Line: 8
-Info (12021): Found 0 design units, including 0 entities, in source file /users/sjbarcx/desktop/vhdl/lab 2/or.vhd
-Error (10500): VHDL syntax error at mux_8_1bit.vhd(33) near text "end";  expecting "entity", or "architecture", or "use", or "library", or "package", or "configuration" File: C:/Users/Sjbarcx/Desktop/vhdl/LAB 2/mux_8_1bit.vhd Line: 33
-Info (12021): Found 0 design units, including 0 entities, in source file /users/sjbarcx/desktop/vhdl/lab 2/mux_8_1bit.vhd
-Error (10500): VHDL syntax error at and.vhd(8) near text ")";  expecting an identifier, or "constant", or "file", or "signal", or "variable" File: C:/Users/Sjbarcx/Desktop/vhdl/LAB 2/and.vhd Line: 8
-Info (12021): Found 0 design units, including 0 entities, in source file /users/sjbarcx/desktop/vhdl/lab 2/and.vhd
-Info (12021): Found 2 design units, including 1 entities, in source file /users/sjbarcx/desktop/vhdl/lab 2/sum8bits/sum8bits.vhd
-    Info (12022): Found design unit 1: sum8bit-rtl File: C:/Users/Sjbarcx/Desktop/vhdl/LAB 2/sum8bits/sum8bits.vhd Line: 14
-    Info (12023): Found entity 1: sum8bit File: C:/Users/Sjbarcx/Desktop/vhdl/LAB 2/sum8bits/sum8bits.vhd Line: 4
-Error (10500): VHDL syntax error at alu8bit.vhd(25) near text ")";  expecting an identifier, or "constant", or "file", or "signal", or "variable" File: C:/Users/Sjbarcx/Desktop/vhdl/LAB 2/alu8bit/alu8bit.vhd Line: 25
-Error (10500): VHDL syntax error at alu8bit.vhd(33) near text ")";  expecting an identifier, or "constant", or "file", or "signal", or "variable" File: C:/Users/Sjbarcx/Desktop/vhdl/LAB 2/alu8bit/alu8bit.vhd Line: 33
+Info (12021): Found 2 design units, including 1 entities, in source file /users/sjbarcx/documents/labs/logiclab/lab_2/vhdl/vhdl lab_2/sum8bits/sum1bit/sum1bit.vhd
+    Info (12022): Found design unit 1: sum1bit-rtl File: C:/Users/Sjbarcx/Documents/labs/LogicLab/lab_2/VHDL/VHDL LAB_2/sum8bits/sum1bit/sum1bit.vhd Line: 12
+    Info (12023): Found entity 1: sum1bit File: C:/Users/Sjbarcx/Documents/labs/LogicLab/lab_2/VHDL/VHDL LAB_2/sum8bits/sum1bit/sum1bit.vhd Line: 4
+Error (10500): VHDL syntax error at or.vhd(8) near text ")";  expecting an identifier, or "constant", or "file", or "signal", or "variable" File: C:/Users/Sjbarcx/Documents/labs/LogicLab/lab_2/VHDL/VHDL LAB_2/or.vhd Line: 8
+Info (12021): Found 0 design units, including 0 entities, in source file /users/sjbarcx/documents/labs/logiclab/lab_2/vhdl/vhdl lab_2/or.vhd
+Error (10500): VHDL syntax error at mux_8_1bit.vhd(33) near text "end";  expecting "entity", or "architecture", or "use", or "library", or "package", or "configuration" File: C:/Users/Sjbarcx/Documents/labs/LogicLab/lab_2/VHDL/VHDL LAB_2/mux_8_1bit.vhd Line: 33
+Info (12021): Found 0 design units, including 0 entities, in source file /users/sjbarcx/documents/labs/logiclab/lab_2/vhdl/vhdl lab_2/mux_8_1bit.vhd
+Error (10500): VHDL syntax error at and.vhd(8) near text ")";  expecting an identifier, or "constant", or "file", or "signal", or "variable" File: C:/Users/Sjbarcx/Documents/labs/LogicLab/lab_2/VHDL/VHDL LAB_2/and.vhd Line: 8
+Info (12021): Found 0 design units, including 0 entities, in source file /users/sjbarcx/documents/labs/logiclab/lab_2/vhdl/vhdl lab_2/and.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/sjbarcx/documents/labs/logiclab/lab_2/vhdl/vhdl lab_2/sum8bits/sum8bits.vhd
+    Info (12022): Found design unit 1: sum8bit-rtl File: C:/Users/Sjbarcx/Documents/labs/LogicLab/lab_2/VHDL/VHDL LAB_2/sum8bits/sum8bits.vhd Line: 14
+    Info (12023): Found entity 1: sum8bit File: C:/Users/Sjbarcx/Documents/labs/LogicLab/lab_2/VHDL/VHDL LAB_2/sum8bits/sum8bits.vhd Line: 4
+Error (10500): VHDL syntax error at alu8bit.vhd(25) near text ")";  expecting an identifier, or "constant", or "file", or "signal", or "variable" File: C:/Users/Sjbarcx/Documents/labs/LogicLab/lab_2/VHDL/VHDL LAB_2/alu8bit/alu8bit.vhd Line: 25
+Error (10500): VHDL syntax error at alu8bit.vhd(33) near text ")";  expecting an identifier, or "constant", or "file", or "signal", or "variable" File: C:/Users/Sjbarcx/Documents/labs/LogicLab/lab_2/VHDL/VHDL LAB_2/alu8bit/alu8bit.vhd Line: 33
 Info (12021): Found 0 design units, including 0 entities, in source file alu8bit.vhd
 Error: Quartus Prime Analysis & Synthesis was unsuccessful. 5 errors, 1 warning
     Error: Peak virtual memory: 4782 megabytes
-    Error: Processing ended: Wed Oct 28 02:16:13 2020
-    Error: Elapsed time: 00:00:14
-    Error: Total CPU time (on all processors): 00:00:29
+    Error: Processing ended: Wed Oct 28 13:13:18 2020
+    Error: Elapsed time: 00:00:21
+    Error: Total CPU time (on all processors): 00:00:31
 
 
