@@ -1,19 +1,19 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity alu8bit is port(
+entity alu8bits is port(
 
 	Z,Y	: in std_logic;
 	sel	: in std_logic_vector(1 downto 0);
 	R		: out std_logic);
 end entity;
 
-architecture rtl of Alu8bit is
+architecture rtl of alu8bits is
 
 
 component sum8bit is port(
-	Z,Y,Cin	: in std_logic;
-	sum, Cout: out std_logic
+	Z,Y, CarryIn	: in std_logic;
+	sum, CarryOut: out std_logic
 );
 end component;
 
@@ -52,7 +52,7 @@ component mux_8_1bit is port(
 		
 end component;
 
-	signal Cin_signal,Cout_signal: std_logic;
+	signal CarryIn_signal,CarryOut_signal: std_logic;
 	signal vector_mux	: std_logic_vector(7 downto 0);
 	
 	
@@ -62,8 +62,8 @@ vector_mux(0) <= AND_8bit;
 vector_mux(1)  <= OR_8bit;
 vector_mux(2) <= sum8bit ;
 vector_mux(3)  <= comparador;
-Cin_signal <= '0';
-sumador: sum8bit port map(Z,Y,Cin_signal,vector_mux(2),Cout_signal);
+CarryIn_signal <= '0';
+sumador: sum8bit port map(Z,Y,CarryIn_signal,vector_mux(2),CarryOut_signal);
 Mux: mux_8_1bit port map(vector_mux,sel,R);
 
 end architecture;
